@@ -1,0 +1,199 @@
+/*!
+ * reeset.css • v1.0.0
+ * MIT License
+ * github.com/thevipinmishra/reeset
+ */
+html,
+body {
+	height: 100%;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	background-color: transparent;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+	font: inherit;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"],
+[role="button"] {
+	cursor: pointer;
+	color: inherit;
+}
+
+img,
+video {
+	display: block;
+	max-width: 100%;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td,
+th {
+	padding: 0;
+}
+
+td:not([align]),
+th:not([align]) {
+	text-align: left;
+}
+
+body {
+	font-size: 1rem;
+	font-family: "Jost", sans-serif;
+	line-height: 1.55;
+	background-color: #ecf0f1;
+	color: #4a5568;
+}
+
+.wrapper {
+	text-align: center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	overflow: hidden;
+}
+
+.headline {
+	font-weight: 700;
+	font-size: 4rem;
+	color: #2c3e50;
+}
+
+.headline span {
+	color: #95a5a6;
+}
+
+.headline2 {
+	font-weight: 500;
+	color: #718096;
+	font-size: 1.5rem;
+}
+
+.download {
+	padding: 2rem 0;
+}
+
+.download__link {
+	display: inline-flex;
+	align-items: center;
+	padding: 1rem 3rem;
+	border-radius: 3px;
+	background-color: #34495e;
+	color: #ecf0f1;
+	font-weight: 300;
+	font-size: 1.5rem;
+	transition: background-color 120ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.download__link svg {
+	height: 1.125em;
+	width: 1.125em;
+	fill: #ecf0f1;
+	margin-right: 0.75rem;
+}
+
+.download__link:hover {
+	background-color: #2c3e50;
+}
+
+.intro {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.intro ul {
+	text-align: left;
+	margin: 2rem 0;
+	padding-left: 2rem;
+	list-style: disc inside;
+	font-weight: 400;
+	font-size: 1.125rem;
+}
+
+.intro code {
+	font-family: monospace;
+	display: inline-block;
+	background-color: #ddd;
+	padding: 3px 5px;
+	border-radius: 2px;
+	margin: 0 0.35rem;
+	line-height: 1;
+}
+
+.intro li + li {
+	margin-top: 0.75rem;
+}
+
+.github__repo {
+	height: 120px;
+	width: 360px;
+	text-align: center;
+	background-color: #2c3e50;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	transform: rotate(45deg) translate(25%, -100%);
+}
+
+.github__repo svg {
+	height: 2.5rem;
+	width: 2.5rem;
+}

@@ -1,0 +1,18 @@
+{
+	"name": "reeset",
+	"version": "1.0.0",
+	"description": "Another CSS Reset, Simple & Minimal",
+	"main": "index.js",
+	"scripts": {
+		"compile": "sass --watch reeset.scss:reeset.css --no-source-map",
+		"minify": "sass --watch reeset.scss:reeset.min.css --style=compressed --no-source-map"
+	},
+	"keywords": [
+		"css",
+		"reset",
+		"web",
+		"design"
+	],
+	"author": "Vipin Mishra",
+	"license": "MIT"
+}
